@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cp \"C:/Users/RK/Desktop/DRISS/css/style.css\" \"C:/Users/RK/Desktop/MS PISCINE/css/style.css\")",
+      "Bash(cp \"C:/Users/RK/Desktop/DRISS/js/main.js\" \"C:/Users/RK/Desktop/MS PISCINE/js/main.js\")",
+      "Bash(powershell.exe -NoProfile -Command \"Add-Type -AssemblyName System.Drawing; [System.Drawing.Bitmap] | Out-Null; Write-Host 'PS-Drawing OK'\")",
+      "Bash(powershell.exe -NoProfile -ExecutionPolicy Bypass -File \"_make_favicons.ps1\")",
+      "Bash(gh auth:*)"
+    ]
+  }
+}
