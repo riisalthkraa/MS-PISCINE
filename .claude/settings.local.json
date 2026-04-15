@@ -5,7 +5,22 @@
       "Bash(cp \"C:/Users/RK/Desktop/DRISS/js/main.js\" \"C:/Users/RK/Desktop/MS PISCINE/js/main.js\")",
       "Bash(powershell.exe -NoProfile -Command \"Add-Type -AssemblyName System.Drawing; [System.Drawing.Bitmap] | Out-Null; Write-Host 'PS-Drawing OK'\")",
       "Bash(powershell.exe -NoProfile -ExecutionPolicy Bypass -File \"_make_favicons.ps1\")",
-      "Bash(gh auth:*)"
+      "Bash(gh auth:*)",
+      "WebFetch(domain:riisalthkraa.github.io)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"https://riisalthkraa.github.io/MS-PISCINE/IMAGES/logo.jpg\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"https://riisalthkraa.github.io/MS-PISCINE/IMAGES/ENTRER%20BOUTIQUE.jpg\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"https://riisalthkraa.github.io/MS-PISCINE/css/style.css\")",
+      "Bash(curl -s \"https://riisalthkraa.github.io/MS-PISCINE/\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"https://riisalthkraa.github.io/MS-PISCINE/js/main.js\")",
+      "Bash(curl -s \"https://riisalthkraa.github.io/MS-PISCINE/js/main.js\")",
+      "Bash(curl -s -o /tmp/live.css \"https://riisalthkraa.github.io/MS-PISCINE/css/style.css\")",
+      "Read(//tmp/**)",
+      "Bash(curl -s -o /dev/null -w \"favicon.ico: %{http_code}\\\\n\" \"https://riisalthkraa.github.io/MS-PISCINE/favicon.ico\")",
+      "Bash(curl -s -o /dev/null -w \"favicon-32: %{http_code}\\\\n\" \"https://riisalthkraa.github.io/MS-PISCINE/favicon-32x32.png\")",
+      "Bash(curl -s -o /dev/null -w \"apple-touch: %{http_code}\\\\n\" \"https://riisalthkraa.github.io/MS-PISCINE/apple-touch-icon.png\")",
+      "Bash(curl -s -o /dev/null -w \"manifest: %{http_code}\\\\n\" \"https://riisalthkraa.github.io/MS-PISCINE/site.webmanifest\")",
+      "Bash(curl -sI \"https://riisalthkraa.github.io/MS-PISCINE/css/style.css\")",
+      "Bash(gh api:*)"
     ]
   }
 }
